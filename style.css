@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* utility class for flex with space between */
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* utility class for flex with space around */
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* utility class for flex with columns */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.top-nav {
+    background-color: #CC0000;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.bottom-nav {
+    padding: 0.5em 2.5em;
+    box-shadow: 7px 5px 5px #F5F5F5;
+
+}
+
+.logo {
+    width: 60px;
+}
+
+.drop-down {
+    background-color: #fff;
+    width: 6em;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+#search-tab {
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    width: 20em;
+    min-height: 2.5em;
+    padding-left: 1em;
+    color: gray;
+    margin: 20px;
+}
+
+.fa-user {
+    margin-right: 10px;
+}
+
+
+#banner {
+    width: 1200px;
+    margin: 25px auto;
+}
+
+.sales-img {
+    width: 280px;
+    margin: 25px 0px;
+}
+
+.sales-text {
+    margin: 0;
+}
+
+.second-banner {
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.footer {
+    background-color: rgb(247, 247, 247);
+    margin: 0px;
+    padding: 1em 5em;
+}
+
